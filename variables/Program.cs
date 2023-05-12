@@ -115,6 +115,13 @@ var edad = 10; // El compilador infiere que el tipo de dato es int
 // edad = "diez"; // Esto es un error ya que el tipo de dato es int
 Console.WriteLine("La edad es: : " + edad +  " y es de tipo de dato: " + edad.GetType());
 
+// Interpolación de strings. Se realiza con el signo de $ 
+string userA = "Carlos";
+Console.WriteLine("*** Example of string interpolation ***");
+Console.WriteLine($"Welcome {userA} to my system");
+
+
+
 dynamic estatura; // No se necesita inicalizar y por lo tanto su valor es null
 // Console.WriteLine("La estatura es: : " + estatura  + " y es de tipo de dato: " + estatura.GetType());  Marca error ya que la variable no tiene un valor asignado
 
@@ -123,6 +130,24 @@ Console.WriteLine("La estatura es: : " + estatura + " y es de tipo de dato: " + 
 estatura = "1.78m"; // No es un error
 Console.WriteLine("La estatura es: : " + estatura + " y es de tipo de dato: " + estatura.GetType());
 
+/* Nullables */
+// Otro tipo de dato son las variables que tienen el valor de null, es decir, que no tienen ningun valor, normalmente se representa como T?
+// las variables que son nulas quieren decir que pueden almacenar valores nulos y su valor como tal, podemos declarar una variable nullable como lo siguiente
+Console.WriteLine("***************** Nullables **************** ");
+bool? isLogin = true;
+Console.WriteLine($"The user: { userA } is logged: { isLogin }");
+
+// Simulando que el usuario cerró sesión u ocurrió un error
+isLogin = null;
+Console.WriteLine($"The user: {userA} is not logged: {isLogin} - { isLogin?.GetType() }");
+Console.WriteLine($"The value of isLogin is a boolean: { isLogin is bool  } ");
+
+// Para las variables nullables podemos usar el metodo hasValue ya que una variable nullable es del tipo Nullable<T>
+// entonces esto nos proporciona los metodos HasValue y Value, el primero devuelve un booleano e indicar si tiene un valor subyacente 
+// y con Value obtenemos el valor subyacente, si el nullable no tiene valor y se accede a Value entonces genera una excepción
+Console.WriteLine($"Variable isLogin has value: { (isLogin.HasValue ? isLogin.Value : "No") }");
+
+// Tambien podemos hacer la comparación con null es decir isLogin == null
 
 // Sources:
 /* 
