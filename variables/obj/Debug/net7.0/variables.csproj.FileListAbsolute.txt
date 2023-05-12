@@ -1,0 +1,15 @@
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\bin\Debug\net7.0\variables.exe
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\bin\Debug\net7.0\variables.deps.json
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\bin\Debug\net7.0\variables.runtimeconfig.json
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\bin\Debug\net7.0\variables.dll
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\bin\Debug\net7.0\variables.pdb
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.csproj.AssemblyReference.cache
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.AssemblyInfoInputs.cache
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.AssemblyInfo.cs
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.csproj.CoreCompileInputs.cache
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.dll
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\refint\variables.dll
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.pdb
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\variables.genruntimeconfig.cache
+D:\Users\jcsalazar\Documents\proyectos\pruebas\net\tutorial\variables\obj\Debug\net7.0\ref\variables.dll
