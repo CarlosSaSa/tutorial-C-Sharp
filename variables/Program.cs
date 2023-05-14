@@ -148,6 +148,12 @@ Console.WriteLine($"The value of isLogin is a boolean: { isLogin is bool  } ");
 Console.WriteLine($"Variable isLogin has value: { (isLogin.HasValue ? isLogin.Value : "No") }");
 
 // Tambien podemos hacer la comparación con null es decir isLogin == null
+/******************** Constantes **********************/
+// Son aquellas variables que no pueden cambiar en tiempo de ejecución
+const int miEdad = 18;
+Console.WriteLine("La edad constante es: " + miEdad);
+// miEdad = 11220; Es un erro de compilación
+
 
 // Sources:
 /* 
