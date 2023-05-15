@@ -1,0 +1,15 @@
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\bin\Debug\net7.0\controlFlujo.exe
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\bin\Debug\net7.0\controlFlujo.deps.json
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\bin\Debug\net7.0\controlFlujo.runtimeconfig.json
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\bin\Debug\net7.0\controlFlujo.dll
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\bin\Debug\net7.0\controlFlujo.pdb
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.csproj.AssemblyReference.cache
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.AssemblyInfo.cs
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.dll
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\refint\controlFlujo.dll
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.pdb
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\controlFlujo.genruntimeconfig.cache
+C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\controlFlujo\obj\Debug\net7.0\ref\controlFlujo.dll
