@@ -72,8 +72,8 @@ string saludo2 = "h";
 
 saludo2 += "ello"; // hacemos la concatenación
 
-Console.WriteLine("Las cadenas son iguales: " + (saludo == saludo2).ToString() );
-Console.WriteLine("Las instancias son iguales: " + object.ReferenceEquals(saludo, saludo2));
+Console.WriteLine("Las cadenas son iguales: " + (saludo == saludo2).ToString() ); // true
+Console.WriteLine("Las instancias son iguales: " + object.ReferenceEquals(saludo, saludo2)); // false
 
 /* 
  Hay que recordar que en C# existe diferente clasificación en los tipos de datos los cuales son los siguientes:
@@ -82,6 +82,11 @@ Console.WriteLine("Las instancias son iguales: " + object.ReferenceEquals(saludo
    entre estos estan los objetos, arrays, strings, clases etc.
 3. Pointer types
  */
+
+
+//Creando una cadena vacia
+string cadenaVacia = string.Empty;
+Console.WriteLine("La cadena vacia es: ", cadenaVacia );
 
 // Tambien podemos acceder a los caracteres indivuales del string
 char caracter = saludo[1];
@@ -94,6 +99,12 @@ Console.WriteLine("El segundo caracter de la cadena: " + saludo + " es: " + cara
 2. Quoted: Son las cadenas "normales" que estan encerradas entre comillas dobles
 3. Verbatim: Las antecede un signo de @ y tiene algunos usos, el mas comun es ignorar las secuencias de escape
  */
+
+// Inmutabilidad de los strings
+string abc = "nueva_cadena";
+abc = "abc_d";
+// abc[0] = 'a';
+Console.WriteLine("Cadena inmutable: " + abc);
 
 // Creando un string raw
 string cadenaSinFormato = """
@@ -153,6 +164,46 @@ Console.WriteLine($"Variable isLogin has value: { (isLogin.HasValue ? isLogin.Va
 const int miEdad = 18;
 Console.WriteLine("La edad constante es: " + miEdad);
 // miEdad = 11220; Es un erro de compilación
+
+
+// Variables de fechas.
+var hoy = DateTime.Now.ToString();
+Console.WriteLine("La fecha de hoy es: " + hoy); //29/10/2023 07:41:47 p. m.
+
+var hoy2 = DateTime.Today.ToString("dd-MM-yyyy");
+Console.WriteLine("Fecha con formato: " + hoy2); //29 - 10 - 2023
+
+// Para hacer el casteo de variables podemos hacer con los metodos Parse de los tipos primitivos
+var cadenaNumero = "5";
+int numeroDesdeCadena = int.Parse(cadenaNumero);
+numeroDesdeCadena++;
+Console.WriteLine("Numero de la cadena: " + numeroDesdeCadena); //6
+
+// Podemos hacerlo desde booleanos tambien
+var booleano1 = "true";
+bool booleano2 = bool.Parse(booleano1);
+Console.WriteLine("Valor booleano convertido: " + booleano2 + " y su tipo de dato es: " + booleano2.GetType().ToString()); // True, Boolean
+
+var fechaString = "29/10/2023";
+
+DateTime fecha2 = DateTime.Parse(fechaString);
+// Fecha formateada es: 29/10/2023 12:00:00 a. m. y su tipo de dato es: System.DateTime
+Console.WriteLine("Fecha formateada es: " + fecha2 + " y su tipo de dato es: " + fecha2.GetType().ToString());
+
+// Ejemplo de TryParse
+var cadena3 = "2023-10-29";
+DateTime fecha3;
+if ( DateTime.TryParse(cadena3, out fecha3) ){ // Si el parseo es correcto se ejecuta el codigo
+    Console.WriteLine("Fecha con un año adelantado: " + fecha3.AddYears(1).ToString()); // Fecha con un año adelantado: 29 / 10 / 2024 12:00:00 a.m.
+} else { // Si el parseo fue incorrecto
+    Console.WriteLine($"La cadena {cadena3} no tiene el formato adecuado"); // La cadena Hello world no tiene el formato adecuado
+}
+
+// Ejemplo de casting explicito
+var numeroa = 1;
+var numerob = 3;
+Console.WriteLine("Resultado de la división: " + ( (double) numeroa / numerob)); // 0
+
 
 
 // Sources:

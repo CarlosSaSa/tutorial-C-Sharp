@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "D:\\Users\\jcsalazar\\.nuget\\packages\\": {}
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\jcsalazar\\Documents\\proyectos\\pruebas\\net\\tutorial\\variables\\variables.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\proyectos\\net\\tutorial-C-Sharp\\variables\\variables.csproj",
       "projectName": "variables",
-      "projectPath": "D:\\Users\\jcsalazar\\Documents\\proyectos\\pruebas\\net\\tutorial\\variables\\variables.csproj",
-      "packagesPath": "D:\\Users\\jcsalazar\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\jcsalazar\\Documents\\proyectos\\pruebas\\net\\tutorial\\variables\\obj\\",
+      "projectPath": "C:\\Users\\Carlos\\Documents\\proyectos\\net\\tutorial-C-Sharp\\variables\\variables.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carlos\\Documents\\proyectos\\net\\tutorial-C-Sharp\\variables\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\jcsalazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
