@@ -17,6 +17,8 @@ nuint	Depends on platform (computed at runtime)	            Unsigned 32-bit or 6
 
 // Los valores que mas se usan son int y long
 
+using EnumsTypes;
+
 int a = 200;
 long b = 100_000_000;
 
@@ -204,6 +206,10 @@ var numeroa = 1;
 var numerob = 3;
 Console.WriteLine("Resultado de la división: " + ( (double) numeroa / numerob)); // 0
 
+// Ejemplo de ENUMS
+var estatusPersona1 = ESTATUS.ERROR_NOT_FOUND;
+// Valor de estatus: ERROR_NOT_FOUND y su valor entero es: 4
+Console.WriteLine("Valor de estatus: " + estatusPersona1 + " y su valor entero es: " + (int)ESTATUS.ERROR_NOT_FOUND); 
 
 
 // Sources:

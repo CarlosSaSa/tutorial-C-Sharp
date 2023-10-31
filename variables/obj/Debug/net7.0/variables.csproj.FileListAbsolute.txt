@@ -28,3 +28,17 @@ C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\variables\bin\Debug\net
 C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.pdb
 C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.genruntimeconfig.cache
 C:\Users\Carlos\Documents\proyectos\net\tutorial-C-Sharp\variables\obj\Debug\net7.0\ref\variables.dll
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.AssemblyInfoInputs.cache
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.AssemblyInfo.cs
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.csproj.CoreCompileInputs.cache
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.dll
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\refint\variables.dll
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.pdb
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.exe
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.deps.json
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.runtimeconfig.json
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.dll
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\bin\Debug\net7.0\variables.pdb
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\variables.genruntimeconfig.cache
+C:\Users\jc.salazar\Documents\proyectos\C#\tutorial-C-Sharp\variables\obj\Debug\net7.0\ref\variables.dll
